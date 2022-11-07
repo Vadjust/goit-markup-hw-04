@@ -30,10 +30,20 @@
             </nav>
             <ul class="contacts">
                 <li class="contact-nav">
-                    <a class="contact-link" href="emeil:info@devstudio.com">info@devstudio.com</a>
+                    <a class="contact-link" href="email:info@devstudio.com">
+                        <svg class="icon-contact" width="16" height="12">
+                            <use href="./images/symbol-defs.svg#icon-email"></use>
+                        </svg>
+                        info@devstudio.com
+                    </a>
                 </li>
                 <li class="contact-nav">
-                    <a class="contact-link" href="tel:+380961111111">+38 096 111 11 11</a>
+                    <a class="contact-link" href="tel:+380961111111">
+                        <svg class="icon-contact" width="10" height="16">
+                            <use href="./images/symbol-defs.svg#icon-telefon"></use>
+                        </svg>
+                        +38 096 111 11 11
+                    </a>
                 </li>
             </ul>
             </div>
@@ -60,66 +70,85 @@
                 </ul> 
                 <ul class="projects">
                     <li class="different-project">
-                        <img class="projects-img" src="./images/portfolio/laptop.jpg" alt="laptop" width="270">
-                        <div class="different-projects">
-                            <h2 class="projects-title">Технокряк</h2>
-                            <p class="projects-text">Веб-сайт</p>
-                        </div>
+                        <a class="different-project-link" href="">
+                            <img class="projects-img" src="./images/portfolio/laptop.jpg" alt="laptop" width="270">
+                            <div class="different-projects">
+                                <h2 class="projects-title">Технокряк</h2>
+                                <p class="projects-text">Веб-сайт</p>
+                            </div>
+                        </a>
                     </li>
                     <li class="different-project">
-                        <img class="projects-img" src="./images/portfolio/sport.jpg" alt="sport" width="270">
+                        <a class="different-project-link" href="">
+                            <img class="projects-img" src="./images/portfolio/sport.jpg" alt="sport" width="270">
                         <div class="different-projects">
                             <h2 class="projects-title">Постер New Orlean vs Golden Star</h2>
                             <p class="projects-text">Дизайн</p>  
                         </div>
+                        </a>
                     </li>
                     <li class="different-project">
+                    <a class="different-project-link" href="">
                         <img class="projects-img" src="./images/portfolio/logo-restaurant.jpg" alt="logo-restaurant" width="270">
                         <div class="different-projects">
                             <h2 class="projects-title">Ресторан Seafood</h2>
                             <p class="projects-text">Додаток</p>
                         </div>
+                    </a>
                     </li>
                     <li class="different-project">
-                        <img class="projects-img" src="./images/portfolio/headphones.jpg" alt="headphones" width="270">
+                        <a class="different-project-link" href="">
+                            <img class="projects-img" src="./images/portfolio/headphones.jpg" alt="headphones" width="270">
                         <div class="different-projects">
                             <h2 class="projects-title">Проєкт Prime</h2>
-                        <p class="projects-text">Маркетинг</p> 
+                            <p class="projects-text">Маркетинг</p> 
                         </div>
+                        </a>
                     </li>
                     <li class="different-project">
-                        <img class="projects-img" src="./images/portfolio/open-box.jpg" alt="open-box" width="270">
+                        <a class="different-project-link" href="">
+                            <img class="projects-img" src="./images/portfolio/open-box.jpg" alt="open-box" width="270">
                         <div class="different-projects">
                             <h2 class="projects-title">Проєкт Boxes</h2>
                             <p class="projects-text">Додаток</p>  
                         </div>
+                        </a>
                     </li>
                     <li class="different-project">
-                        <img class="projects-img" src="./images/portfolio/desktop.jpg" alt="desktop" width="270">
+                        <a class="different-project-link" href="">
+                            <img class="projects-img" src="./images/portfolio/desktop.jpg" alt="desktop" width="270">
                         <div class="different-projects">
                             <h2 class="projects-title">Inspiration has no Borders</h2>
                             <p class="projects-text">Веб-сайт</p>
                         </div>
+                        </a>
                     </li>
                     <li class="different-project">
-                        <img class="projects-img" src="./images/portfolio/book.jpg" alt="book" width="270">
+                        <a class="different-project-link" href="">
+                            <img class="projects-img" src="./images/portfolio/book.jpg" alt="book" width="270">
                         <div class="different-projects">
                             <h2 class="projects-title">Видання Limited Edition</h2>
-                            <p class="projects-text">Дизайн</p></div>
+                            <p class="projects-text">Дизайн</p>
+                        </div>
+                        </a>
                     </li>
                     <li class="different-project">
-                        <img class="projects-img" src="./images/portfolio/lab.jpg" alt="lab" width="270">
+                        <a class="different-project-link" href="">
+                            <img class="projects-img" src="./images/portfolio/lab.jpg" alt="lab" width="270">
                         <div class="different-projects">
                             <h2 class="projects-title">Проєкт LAB</h2>
                             <p class="projects-text">Маркетинг</p> 
                         </div>
+                        </a>
                     </li>
                     <li class="different-project">
-                        <img class="projects-img" src="./images/portfolio/tapping-text.jpg" alt="tapping-text" width="270">
+                        <a class="different-project-link" href="">
+                            <img class="projects-img" src="./images/portfolio/tapping-text.jpg" alt="tapping-text" width="270">
                         <div class="different-projects">
                             <h2 class="projects-title">Growing Business</h2>
                             <p class="projects-text">Додаток</p>
                         </div>
+                        </a>
                     </li>
                 </ul>
             </div>
@@ -127,19 +156,54 @@
     </main>
     <footer class="footer">
         <div class="container footer-container">
-            <a class="logo logo-footer" href="./index.html"> <span class="logo-accent">Web</span><span class="logo-primary">Studio</span></a>    
+            <div class="footer-address-box">
+                <a class="logo logo-footer" href="./index.html"> <span class="logo-accent">Web</span><span class="logo-primary">Studio</span></a>    
             <address>
             <ul class="contact">
                 <li class="contact-footer">
-                    <a class="footer-address" href="https://goo.gl/maps/YLcZyGkc4DeghfoG7" target="_blank" rel="noopened noreferrer nofollow">м.Київ, пр-т Лесі Українки, 26</a>
+                    <a class="footer-address" href="https://goo.gl/maps/YLcZyGkc4DeghfoG7" target="_blank" rel="noopener noreferrer nofollow">м.Київ, пр-т Лесі Українки, 26</a>
                 </li> 
                 <li class="contact-footer">
                     <a class="footer-link" href="tel:+380961111111">+38 096 111 11 11</a>
                 </li>
                 <li class="contact-footer">
-                    <a class="footer-link" href="emeil:info@devstudio.com">info@devstudio.com</a>
+                    <a class="footer-link footer-link-emeil" href="emeil:info@devstudio.com">info@devstudio.com</a>
                 </li>
             </ul>
+            </div>
+            <div class="footer-social-box">
+                <p class="item-footer">Приєднуйтесь</h3>
+                <ul class="social-footer list">
+                    <li class="icon-social" >
+                        <a class="icon-footer-link" href="#" target="_blank" rel="noreferrer noopener">
+                            <svg class="icon-footer" width="20" height="20">
+                                <use href="./images/symbol-defs.svg#icon-instagram"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="icon-social" >
+                        <a class="icon-footer-link" href="#" target="_blank" rel="noreferrer noopener">
+                            <svg class="icon-footer" width="20" height="20">
+                                <use href="./images/symbol-defs.svg#icon-twitter"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="icon-social" >
+                        <a class="icon-footer-link" href="#" target="_blank" rel="noreferrer noopener">
+                            <svg class="icon-footer" width="20" height="20"> 
+                                <use href="./images/symbol-defs.svg#icon-facebook"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="icon-social" >
+                        <a class="icon-footer-link" href="#" target="_blank" rel="noreferrer noopener">
+                            <svg class="icon-footer" width="20" height="20">
+                                <use href="./images/symbol-defs.svg#icon-linkedin"></use>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+            </div>
             </address>
         </div>
     </footer>
