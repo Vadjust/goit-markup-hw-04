@@ -253,6 +253,7 @@ ul {
 
 .benefits-text {
     width: 270px;
+    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     color: var(--title-text-color);
@@ -325,6 +326,7 @@ ul {
 
 .icon-social {
     padding: 0;
+    margin: 0;
     text-decoration: none;
 }
 
@@ -375,7 +377,7 @@ ul {
 }
 .projects-title {
     margin-bottom: 4px;
-    color: var(--title-text-color);
+    color: var(--primary-text-color);
 
     font-weight: 700;
     font-size: 18px;
@@ -431,6 +433,8 @@ color: var(--primary-text-color);
 .icon-logo-client:hover,
 .icon-logo-client:focus {
     fill: var(--accent-color);
+    border: var(--accent-color)
+
 }
 
 
@@ -506,6 +510,7 @@ color: var(--primary-text-color);
 }
 
 .item-footer {
+    margin-bottom: 20px;
     display: block;
     text-decoration: none;
     font-weight: 700;
@@ -640,7 +645,7 @@ display: flex;
 .icon-social {
     width: 44px;
     height: 44px;
-    margin-top: 20px;  
+      
   }
   
   .icon-social:not(:first-child) {
