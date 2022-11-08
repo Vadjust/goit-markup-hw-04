@@ -120,6 +120,14 @@ ul {
     text-decoration: none;
     align-items: center;
     color: var(--title-text-color);
+    
+        margin-right: 10px;
+        fill: #757575;
+    }
+
+.icon-contact {
+    margin-right: 10px;
+    
 }
 
     .contact-link:hover,
@@ -128,9 +136,6 @@ ul {
     fill: var(--accent-color);  
 }
 
-.icon-contact {
-    margin-right: 10px;
-}
 
 .icon {
     width: 20px;
@@ -185,7 +190,6 @@ ul {
 
 .button:hover,
 .button:focus {
-    color: var(--primary-text-color);
     background-color: var(--accent-color);
     cursor: pointer;
 }
@@ -371,6 +375,7 @@ ul {
 }
 .projects-title {
     margin-bottom: 4px;
+    color: var(--title-text-color);
 
     font-weight: 700;
     font-size: 18px;
@@ -408,18 +413,19 @@ color: var(--primary-text-color);
 }
 
 .logo-client {
-    display: inline-flex;
-    width: 170px;
-    height: 92px;
     margin-right: 30px;
     border: 1px solid #AFB1B8;
     border-radius: 4px;
-    align-items: center;
-    justify-content: center;
+    
 }
 
 .icon-logo-client {
-    fill: #AFB1B8;;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 170px;
+    height: 92px;
+    fill: #AFB1B8;
 }
 
 .icon-logo-client:hover,
@@ -563,6 +569,7 @@ color: var(--primary-text-color);
     color: var(--title-text-color);
     color: var(--primary-white-color);
     background-color: var(--accent-color);
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
     cursor: pointer;}
 
 .features-link {
@@ -648,7 +655,6 @@ display: flex;
     height: 100%;
   
     fill: var(--primary-white-color);
-    background-color: ;
     border-radius: 50%;
   }
   
